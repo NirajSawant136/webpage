@@ -7,11 +7,13 @@
 
 body{
   
-    /* background-color: black; */
+    background-image: url(D:\Projects\images\hh.png);
     margin:0px;
-    border-radius: 325px;
-    
-
+    background-size:cover;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100%; 
 }
 
 .images{
@@ -37,7 +39,7 @@ img{
 h1{
     text-align: center;
     color:#eb7d01;
-    margin-top: 1px;
+    margin-top: 0px;
     font-size: 3em;
     font-family: 'Comfortaa',cursive;
     font-style: normals;
@@ -47,12 +49,12 @@ h1{
     background: -webkit-linear-gradient(	#FFD700,	#FF4500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom:5px solid  #eb7d01;
-    border-radius: 325px;
+    text-align: left;
     margin-top: 5vh;
-    border-top:7px solid #eb7d01; 
-    border-radius: 150px;
-    padding: 20px 0px
+    margin-left:5px; 
+    padding: 20px 15px;
+    border-top:3px solid #FFD700; 
+    border-spacing:4;   
     
 }
 h1:hover{
@@ -69,12 +71,14 @@ p{
 }
 a{
     justify-content: center;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
     color: #808080;
     font-size: 2em;
     text-decoration: none; 
     margin:0px 30px;  
+    
+     
 }
 a:link{
     color: #808080;
@@ -89,7 +93,7 @@ a:hover{
     height: 50px;
     
 }
-.container-1{
+.searchContainer{
     width: 300px;
     vertical-align: middle;
     white-space: nowrap;
@@ -110,29 +114,10 @@ a:hover{
 
     
     -webkit-transition: background .55s ease;
-  -moz-transition: background .55s ease;
-  -ms-transition: background .55s ease;
-  -o-transition: background .55s ease;
-  transition: background .55s ease;
+ 
+  }
   
-  }
-  .container-1 .icon{
-    position: relative;
-    top: 50%;
-    margin-left: 17px;
-    margin-top: 17px;
-    z-index: 1;
-    color: #4f5b66;
-    background-image: url(C:\Users\NirajSawant\Downloads\icon.png) ;
-    background-position: left center;outline: 0;
-    background-repeat:no-repeat; 
-  }
-  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
-    outline:none;
-    background: #ffffff;
-    
-
-  }
+  
 .boos{
     display: inline-flex;
     width: 50%;
@@ -197,23 +182,34 @@ nav ul li{
 
   .searchBox:hover{
     outline:none;
-    background: #bbb;
+    background:white;
   }
   
   .searchButton {
-    background: #538AC5;
+    background: black;
     border: 0;
     color: white;
     padding: 0.5em;
     border-radius: 0;
   }
-  .page{
-      height: 50vh;
-      width: 50vw;
-      background: red;
-      -webkit-clip-path: circle(50% at 50% 50%);
-clip-path: circle(50% at 50% 50%);
-  }
+   .page{
+      height: 30vh;
+      width: 47vw;
+      margin: 0px;
+      background: -webkit-linear-gradient(	#FFD700,	#FF4500);
+      -webkit-clip-path: polygon(50% 0%, 100% 0, 68% 18%, 63% 4%, 0 4%, 0 0);
+      clip-path: polygon(50% 0%, 100% 0, 68% 18%, 63% 4%, 0 4%, 0 0);
+      position:absolute;
+  } 
+  .page2{
+    height: 13vh;
+    width: 98.9vw;
+    margin: 0px;
+    background: -webkit-linear-gradient(	#FF4500,	#FFD700);
+    -webkit-clip-path: polygon(0 94%, 100% 94%, 100% 100%, 0% 100%);
+clip-path: polygon(0 94%, 100% 94%, 100% 100%, 0% 100%);
+    position:absolute;
+} 
 
 
   /* media queries */
@@ -221,16 +217,16 @@ clip-path: circle(50% at 50% 50%);
       h3{
           font-size: 1.5em
       }
-      body{
-    }
+     
     nav{
         display: none
     }
     h1{
-        margin-top: 2vh;
-        border-top:7px solid #eb7d01; 
-          border-radius: 150px;
-          font-size: 2em
-      }
+        font-size: 1.5em
+    }
+    .page{
+        width:
+    }
+    
 
   }
