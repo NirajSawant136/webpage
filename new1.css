@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+
+.yes{
+    color: white;
+    background-color: #63717f;
+    margin-top:0px;
+    height: 60px; 
+}
