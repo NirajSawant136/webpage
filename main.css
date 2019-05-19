@@ -1,0 +1,236 @@
+.flex-container{
+    -webkit-box-flex-group: inherit;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+}
+
+
+body{
+  
+    /* background-color: black; */
+    margin:0px;
+    border-radius: 325px;
+    
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+img{
+    width: 450px;
+    height: 350px;
+    display:inline-flex;
+    justify-content: center;
+    margin: 10px;
+    transition: .2s;
+    margin-bottom: 30px;
+    filter: drop-shadow(5px 8px 14px #00000033)
+    
+} 
+.images :hover{
+   transform: translateY(-5px);
+   filter: drop-shadow(12px 15px 14px #00000033);
+}  
+h1{
+    text-align: center;
+    color:#eb7d01;
+    margin-top: 1px;
+    font-size: 3em;
+    font-family: 'Comfortaa',cursive;
+    font-style: normals;
+    font-weight:normal;
+    flex-wrap: wrap;
+    transition: 0.5s;  
+    background: -webkit-linear-gradient(	#FFD700,	#FF4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom:5px solid  #eb7d01;
+    border-radius: 325px;
+    margin-top: 5vh;
+    border-top:7px solid #eb7d01; 
+    border-radius: 150px;
+    padding: 20px 0px
+    
+}
+h1:hover{
+    background: -webkit-linear-gradient(	#FF4500,	#FFD700);  -webkit-background-clip: text;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(	#808080,#DCDCDC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a{
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    color: #808080;
+    font-size: 2em;
+    text-decoration: none; 
+    margin:0px 30px;  
+}
+a:link{
+    color: #808080;
+}
+
+a:hover{
+    color:white;
+}
+.box{
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+    
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+  
+  }
+  .container-1 .icon{
+    position: relative;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+    background-image: url(C:\Users\NirajSawant\Downloads\icon.png) ;
+    background-position: left center;outline: 0;
+    background-repeat:no-repeat; 
+  }
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+    
+
+  }
+.boos{
+    display: inline-flex;
+    width: 50%;
+    font-size: 0.5em
+}
+
+
+    
+ 
+        h3{
+            text-align:center;
+            color: #eb7d01;
+            font-display: arial;
+            font-size: 2cm;
+            font-family:  Georgia;
+            background: -webkit-linear-gradient(	#FFD700,	#FF4500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        
+
+
+nav ul li{
+    text-decoration: none;
+    list-style: none
+}
+.container ul{
+    display: flex
+}
+.icon{
+    color: white
+}
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: absolute;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 25%;
+    right: 5vw;
+    width: 30px;
+    transition: all 0.5s ease-in
+  }
+  .searchContainer:hover   {
+      width: 300px;
+
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.4em
+  }
+  
+  .searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+  }
+
+  .searchBox:hover{
+    outline:none;
+    background: #bbb;
+  }
+  
+  .searchButton {
+    background: #538AC5;
+    border: 0;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0;
+  }
+  .page{
+      height: 50vh;
+      width: 50vw;
+      background: red;
+      -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+  }
+
+
+  /* media queries */
+  @media only screen and (max-width:600px){
+      h3{
+          font-size: 1.5em
+      }
+      body{
+    }
+    nav{
+        display: none
+    }
+    h1{
+        margin-top: 2vh;
+        border-top:7px solid #eb7d01; 
+          border-radius: 150px;
+          font-size: 2em
+      }
+
+  }
