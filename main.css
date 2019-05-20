@@ -7,19 +7,20 @@
 
 body{
   
-    background-image: url(D:\Projects\images\hh.png);
+    background-image: url(C:\Users\NirajSawant\Desktop\WALLPAPERS\Untitled-1.jpg);
+    height: 100%;;
+    width: 100%;
     margin:0px;
     background-size:cover;
     background-position: center;
-    background-color: black;
-    background-repeat: no-repeat;
+    background-color: rgb(76, 71, 71);
     height: 100%; 
+    filter: drop-shadow(25px 25px 25px black);
     border-top:40px solid #2af8eb; 
 }
 .yes{
     display: inline-flex;
 }
-
 .images{
     display: flex;
     justify-content: center;
@@ -58,10 +59,11 @@ h1{
     margin-top: 0px;
     margin-left:0px; 
     padding: 20px 15px;
-    border-top:8px solid #0c756e; 
+    border-top:8px solid #16c2b7; 
     border-right:8px solid #0c756e; 
     border-spacing:0; 
-    border-radius:25px;   
+    border-radius:25px; 
+    background-color: black;  
     
 }
 h1:hover{
@@ -106,7 +108,7 @@ a:hover{
     width: 300px;
     vertical-align: middle;
     white-space: nowrap;
-    position: relative;
+    position: absolute;
   }
   
   
@@ -132,6 +134,7 @@ nav ul li{
     max-width: 25%;
     right: 5vw;
     width: 30px;
+    justify-content: right(0px);
     transition: all 0.5s ease-in
   }
   .searchContainer:hover   {
@@ -176,9 +179,7 @@ nav ul li{
     h1{
         font-size: 1.5em
     }
-    .page{
-        width:
-    }
+    
     
 
   }
