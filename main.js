@@ -13,19 +13,3 @@ if(!event.target.matches('.dropbtn')){
     }
   }
 }
-window.onscroll = function(){
-  myFunction();
-}
-
-var yes = document.getElementById("header");
-
-var sticky = yes.offsetTop;
-
-function myFunction(){
-  if(window.pageYOffset > sticky){
-    yes.classList.add("sticky");
-  }
-  else{
-    yes.classList.remove("sticky");
-  }
-}

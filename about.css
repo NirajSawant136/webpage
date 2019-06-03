@@ -1,0 +1,202 @@
+.flex-container{
+    -webkit-box-flex-group: inherit;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+}
+
+
+body{
+  
+    background-image: url(C:\Users\NirajSawant\Desktop\WALLPAPERS\Untitled-1.jpg);
+    height: 100%;;
+    width: 100%;
+    margin:0px;
+    background-size:cover;
+    background-position: center;
+    background-color: rgb(46, 47, 49);
+    height: 100%; 
+    filter: drop-shadow(25px 25px 25px black);
+    border-top:0px solid #d1244a;
+    padding-top: 60px;
+    padding-bottom: 40px; 
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none
+}
+.yes h1{
+    text-align: center;
+    color:#d1244a;
+    margin-top: 0px;
+    font-size: 3em;
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight:normal;
+    flex-wrap: wrap;
+    transition: 0.5s;  
+    background: -webkit-linear-gradient(black,	#d1244a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-top: 5px;
+    margin-left:0px; 
+    padding: 0px 15px;
+    border-spacing:0; 
+    border-radius:25px; 
+    background-color: black;  
+    
+    
+}
+.yes h1:hover{
+    background:#d1244a;  -webkit-background-clip: text;
+}
+.yes{
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    /* background-color: #191717; */
+    margin-top: 0px;
+    height: 4.5%;
+    background-image: url(286959.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    border-bottom:#d1244a solid 2px;  
+}
+
+.dropbtn {
+    background-color: rgb(71, 73, 76,0);
+    color:#808080;
+    padding: 6px;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+     
+}
+.container ul{
+    display: flex;
+    margin-left: 200px;
+    margin-top:26px;
+     
+}
+a{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #808080;
+    font-size: 2em;
+    text-decoration: none;  
+    margin:0px 30px;  
+    
+
+    
+     
+}
+a:link{
+   margin-top: 11px;
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
+.box{
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+    
+}
+.dropbtn:hover, .dropbtn:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #d1244a;
+    max-height: 100%; 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .projects{
+    display: none;
+    position: absolute;
+    background-color:#0e0d0d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .projects a {
+    color:#808080;
+    padding: 0px 0px 13px 0px;
+    border: rgb(71, 73, 76,0) solid 1px;
+    text-decoration: none;
+    display: block;
+    border-bottom: #808080 solid 1px;
+    
+  }
+ .projects a:hover{
+     color: #d1244a;
+     margin: 0px;
+     padding: 12px 16px;
+     border: #d1244a solid 1px;
+ }    
+ .show {display:block;} 
+
+ input[type="search"] {
+    border: 2px solid #737373;
+    border-width: 0 0 3px;
+    background-color: transparent;
+    font: 22px "Open Sans", sans-serif;
+    padding: 0.125em 0.225em;
+    width: 85%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+  }
+  .astro img{
+    height:90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+  .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #d1244a;
+    padding: 10px 0;
+    color:#0e0d0d;
+    text-align: center;
+}
+.fixed-footer{
+    bottom: 0;
+}
+  input[type="search"]:focus {
+    color: #d1244a;
+    border-color: #d1244a;
+    outline: none;
+  }
+  .searchform:hover{
+    background-color: #0e0d0d ;
+    opacity: 1;
+    margin-bottom: 4px;
+    height: 5%;
+}
+label, input {
+  vertical-align: baseline;
+  color: #737373;
+  
+}
+label {
+  margin: 0.125em 0.125em 0 0;
+  float: right;
+  
+}

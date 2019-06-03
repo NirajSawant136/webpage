@@ -82,7 +82,7 @@ function animationLooper(){
 // for drawing a bar
 function drawBar(x1, y1, x2, y2, width,frequency){
     
-    var lineColor = "rgb(255,255,255)";
+    var lineColor = "rgb(" + frequency + 32 + ", " + frequency + 181 + ", "+ frequency + 221 + ")";
     
     ctx.strokeStyle = lineColor;
     ctx.lineWidth = width;
