@@ -1,12 +1,21 @@
 body{
-    background-color: black;
-    margin: 0px;
+  margin: 0px;
+  padding: 0;  
+  background-image: url(5c9fa12eafbb8.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,body{
+    overflow: hidden;
 }
 
 
-.yes{
-    color: white;
-    background-color: #63717f;
-    margin-top:0px;
+.yeah{
+    color: rgb(21, 121, 243);
+    margin:0px;
     height: 60px; 
+    text-align: center;
 }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <title>Demo2</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="audio.css">
+    <script type ="text/javascript"src="aa.js"></script>
+    </head>
+
+    <body>
+        <canvas id="progress" width="500" height="100"></canvas>
+        <audio id="audio" ontimeupdate="updateBar()" src="Madeon - All My Friends (Official Audio).mp3"></audio>
+        <br>
+        <span id="current-time"></span>
+        <span id="duration"></span>
+        <br>
+        <button id="audioControl" onclick="toggleplaying()">Play</button>
+    </body>
+</html>
