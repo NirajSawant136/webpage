@@ -11,7 +11,7 @@ function initPage(){
     context = new (window.AudioContext || window.webkitAudioContext)();//The AudioContext interface represents an audio-processing graph built from audio modules linked together
     analyser = context.createAnalyser();//The AnalyserNode interface represents a node able to provide real-time frequency and time-domain analysis information.
     
-    audio.src = "Madeon - All My Friends (Official Audio).mp3"; // the source path
+    audio.src = "Chelsea Cutler - Giving Up Ground (feat. Quinn XCII).mp3"; // the source path
     source = context.createMediaElementSource(audio);
     source.connect(analyser);
     analyser.connect(context.destination);
